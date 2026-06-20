@@ -1,0 +1,355 @@
+<html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Beach Bakery - Creative Brief</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f5f0;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    header {
+        background-color: #8B4513;
+        color: white;
+        text-align: center;
+        padding: 30px;
+    }
+
+    nav {
+        background-color: #A0522D;
+        padding: 15px;
+        text-align: center;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        color: #FFD700;
+    }
+
+    .container {
+        max-width: 1100px;
+        margin: 20px auto;
+        padding: 20px;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    }
+
+    section {
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        color: #8B4513;
+        border-bottom: 2px solid #D2B48C;
+        margin-bottom: 15px;
+        padding-bottom: 5px;
+    }
+
+    .gallery {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .gallery img {
+        width: 300px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 8px rgba(0,0,0,0.2);
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 15px;
+    }
+
+    table, th, td {
+        border: 1px solid #ccc;
+    }
+
+    th {
+        background-color: #8B4513;
+        color: white;
+    }
+
+    th, td {
+        padding: 12px;
+        text-align: center;
+    }
+
+    form {
+        background-color: #f4f4f4;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    input, select, textarea {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+
+    input[type="submit"] {
+        background-color: #8B4513;
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #A0522D;
+    }
+
+    #confirmation {
+        color: green;
+        font-weight: bold;
+        margin-top: 15px;
+    }
+
+    footer {
+        background-color: #8B4513;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+
+    video,
+    audio {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    ul {
+        margin-left: 25px;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Beach Bakery</h1>
+    <p>E-Commerce Website Project (Part 1)</p>
+</header>
+
+<nav>
+    <a href="#website overview">Website Overview</a>
+    <a href="#products">Products</a>
+    <a href="#menu">Menu</a>
+    <a href="#music">Music</a>
+    <a href="#order">Order</a>
+</nav>
+
+<div class="container">
+
+    <!-- CREATIVE BRIEF -->
+    <section id="website overview">
+        <h2>Website Overview</h2>
+
+        <p>
+            The Beach Bakery website is a e-commerce website that
+            showcases our bakery goods and lets you place orders online.
+	    Use is supported on both desktop and mobile.
+        </p>
+
+        <br>
+
+        <h2>Goal of the Website</h2>
+
+        <p>
+            Our main goal is to expand our business through an easy to navigate website. 
+	    Convenient features such as online orders and pictrues of our products are
+	    available to all potential customers.
+        </p>
+
+        <br>
+
+        <h2>Target Audience</h2>
+
+        <ul>
+            <li>Local residents</li>
+            <li>Families</li>
+            <li>Students</li>
+        </ul>
+
+        <br>
+
+        <h2>Important Information</h2>
+
+        <p>
+            Customers will need easy access to our menu, prices, 
+	    location, business hours, etc.
+        </p>
+
+        <br>
+
+        <h2>Why Shop With Us?</h2>
+
+        <ul>
+            <li>Fresh baked goods made daily</li>
+            <li>Affordable prices</li>
+            <li>Family friendly environment</li>
+            <li>Fast service</li>
+            <li>Great customer service</li>
+        </ul>
+
+        <br>
+
+    </section>
+
+    <!-- WEB GRAPHICS -->
+    <section id="products">
+        <h2>Featured Goods</h2>
+
+        <div class="gallery">
+    <img src="Pictures/bread.jpg" alt="Fresh Bread">
+    <img src="Pictures/blueberry.jpg" alt="Pastries">
+    <img src="Pictures/coffee.jpg" alt="Coffee">
+        </div>
+    </section>
+
+    <!-- TABLE -->
+    <section id="menu">
+        <h2>Menu</h2>
+
+        <table>
+            <tr>
+                <th>Item</th>
+                <th>Description</th>
+                <th>Price</th>
+            </tr>
+
+	    <tr>
+                <td>Bread Loaf</td>
+                <td>Fluffy loaf of bread</td>
+                <td>$4.99</td>
+            <tr>
+                <td>Croissant</td>
+                <td>Buttery French pastry</td>
+                <td>$3.99</td>
+            </tr>
+
+            <tr>
+                <td>Blueberry Muffin</td>
+                <td>Fresh blueberries muffin</td>
+                <td>$2.99</td>
+            </tr>
+
+            <tr>
+                <td>Bagel Sandwich</td>
+                <td>Breakfast sandwich with egg and cheese</td>
+                <td>$5.99</td>
+            <tr>
+                <td>Coffee</td>
+                <td>Roasted coffee, black or with sugar</td>
+                <td>$1.99</td>
+            </tr>
+
+            </tr>
+        </table>
+    </section>
+
+    <!-- AUDIO -->
+    <section id="music">
+        <h2>Music</h2>
+
+        <p>A sample of our cozy music that plays:</p>
+
+        <audio controls>
+            <source src="music/mus.mp3" type="audio/mpeg">
+            Your browser does not support audio.
+        </audio>
+
+        <br><br>
+
+            </section>
+
+    <!-- FORM -->
+    <section id="order">
+        <h2>Online Order Form</h2>
+
+        <form id="orderForm">
+
+            <label for="name">First Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="name">Last Name:</label>
+            <input type="text" id="name" required>
+           
+	    <label for="email">Email Address:</label>
+            <input type="email" id="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone">
+
+            <label for="product">Select Product:</label>
+            <select id="product">
+		<option>Bread Loaf</option>
+                <option>Croissant</option>
+                <option>Blueberry Muffin</option>
+		<option>Bagel Sandwich</option>
+                <option>Coffee</option>
+            </select>
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" min="1" value="1">
+
+            <input type="submit" value="Place Order">
+
+            <p id="confirmation"></p>
+
+        </form>
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 Beach Bakery | Jacksonville, Florida</p>
+</footer>
+
+<!-- JAVASCRIPT -->
+<script>
+document.getElementById("orderForm").addEventListener("submit", function(event) {
+
+    event.preventDefault();
+
+    let customerName =
+        document.getElementById("name").value;
+
+    let product =
+        document.getElementById("product").value;
+
+    let quantity =
+        document.getElementById("quantity").value;
+
+    document.getElementById("confirmation").innerHTML =
+        "Thank you, " + customerName +
+        "! Your order for " + quantity +
+        " " + product +
+        "(s) has been received.";
+});
+<script>
+
+<body>
+<html>
